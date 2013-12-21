@@ -33,3 +33,19 @@ C:\Users\Jorge\Desktop\Clinisalud\Clinisalud\appClinica\appClinica\obj\Debug\app
 C:\Clinisalud\Clinisalud\appClinica\appClinica\bin\Debug\appClinica.exe.config
 C:\Clinisalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.exe
 C:\Clinisalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.pdb
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\bin\Debug\appClinica.exe.config
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.exe
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.pdb
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\bin\Debug\appClinica.exe
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\bin\Debug\appClinica.pdb
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.csprojResolveAssemblyReference.cache
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.Vistas.Citas.resources
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.Vistas.CitasForm.resources
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.Vistas.Cliente.resources
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.Vistas.ClienteForm.resources
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.Vistas.Menu.resources
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.Vistas.SesionVista.resources
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.Properties.Resources.resources
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.Vistas.Usuarios.resources
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.Vistas.UsuariosForm.resources
+C:\Proyecto CliniSalud\Clinisalud\appClinica\appClinica\obj\Debug\appClinica.csproj.GenerateResource.Cache
