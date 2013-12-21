@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<Parametros>
+	<Conexion>
+		<Usuario>usrClinica</Usuario>
+		<Password>1234</Password>
+    		<Server>JORGE-PC\DBSERVER</Server>
+    		<DataBase>dbClinica</DataBase>
+    		<Schema>dbo</Schema>
+	</Conexion>
+</Parametros>
