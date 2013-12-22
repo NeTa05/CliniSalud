@@ -7,14 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Datos;
 
 namespace appClinica.Vistas
 {
     public partial class Usuarios : Form
     {
-        public Usuarios()
+        AccesoDatosSQL conexion;
+        public Usuarios(AccesoDatosSQL pConexion)
         {
             InitializeComponent();
+            this.conexion = pConexion;
             this.StartPosition = FormStartPosition.CenterScreen;
 
         }
@@ -23,7 +26,7 @@ namespace appClinica.Vistas
         {
 
             this.Visible = false;
-            Menu menu = new Menu();
+            Menu menu = new Menu(this.conexion);
             menu.ShowDialog();
         }
 
@@ -35,14 +38,14 @@ namespace appClinica.Vistas
         private void btnModificar_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            UsuariosForm usuarioForm = new UsuariosForm();
+            UsuariosForm usuarioForm = new UsuariosForm(this.conexion);
             usuarioForm.ShowDialog();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            UsuariosForm usuarioForm = new UsuariosForm();
+            UsuariosForm usuarioForm = new UsuariosForm(this.conexion);
             usuarioForm.ShowDialog();
         }
         

@@ -34,13 +34,13 @@ namespace appClinica.Vistas
 
             string resultado = sesion.verificaUsuario(this.usuario, contrasena);// se iguala el return del metodo
 
-            
 
-            if (resultado.Equals(""))//si viene vacio no retorno error en contraseña o id
+
+            if (resultado.Equals("Ingreso"))//si viene vacio no retorno error en contraseña o id
             {
 
                 this.Visible = false;
-                Menu menu = new Menu();
+                Menu menu = new Menu(this.conexion);
                 menu.ShowDialog();
             }
             else// si viene diferente a vacio se concatena el error

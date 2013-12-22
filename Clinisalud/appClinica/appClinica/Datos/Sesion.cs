@@ -31,46 +31,6 @@ namespace Datos
 
         #region Consultas seguridad
 
-        //verifica q el usuario si exista
-        public string verificaUsuarioExista(string pId_usuario)
-        {
-
-            string mensaje = "";//dato a retornar
-            this.error = "";// posible error
-            string sql = "select id_usuario from Usuario  where id_usuario=@usuario ";
-
-            SqlParameter[] Parametros = new SqlParameter[1];//arreglo de parametros p consulta
-
-            Parametros[0] = new SqlParameter();             //posicion 0 es varchar y hace referencia a la columna usuario
-            Parametros[0].SqlDbType = SqlDbType.VarChar;
-            Parametros[0].ParameterName = "@usuario";
-            Parametros[0].Value = pId_usuario;
-
-            DataSet retorno;//almacenar datos de las tablas
-            try
-            {
-                retorno = this.cnx.ejecutarConsultaSQL(sql, "table", Parametros);//consulta, nomb tabla, parametros p consulta
-            }
-            catch//si ocurre error pone dataset retorno en null
-            {
-                retorno = null;
-            }
-
-            if (retorno.Tables[0].Rows.Count > 0)//si trae mas de una fila
-            {
-                mensaje = "ya existe este usuario";//no se puede agregar
-            }
-            else//si no trae fila el usuario no esta en la bd
-            {
-                mensaje = "Usuario agregado";//pone mensaje como usuario agregado
-            }
-            if (this.cnx.IsError)
-            {
-                this.error = this.cnx.ErrorDescripcion;
-            }
-
-            return mensaje;
-        }
 
         //verificar q el usuario exista y la contraseña sea correcta
         public string verificaUsuario(string pUsuario, string pContraseña)
@@ -137,43 +97,7 @@ namespace Datos
             return mensaje;
         }
 
-        //verificar estado activo true, no activo false
-        public bool verificaActivo(string pId_usuario)
-        {
-
-            bool activo = false;//dato a retornar
-            this.error = "";// posible error
-            string sql = "select activo from Usuario  where id_usuario=@usuario and activo=1";
-
-            SqlParameter[] Parametros = new SqlParameter[1];//arreglo de parametros p consulta
-
-            Parametros[0] = new SqlParameter();             //posicion 0 es varchar y hace referencia a la columna usuario
-            Parametros[0].SqlDbType = SqlDbType.VarChar;
-            Parametros[0].ParameterName = "@usuario";
-            Parametros[0].Value = pId_usuario;
-
-            DataSet retorno;//almacenar datos de las tablas
-            try
-            {
-                retorno = this.cnx.ejecutarConsultaSQL(sql, "table", Parametros);//consulta, nomb tabla, parametros p consulta
-            }
-            catch//si ocurre error pone dataset retorno en null
-            {
-                retorno = null;
-            }
-
-            if (retorno.Tables[0].Rows.Count > 0)//si trae mas de una fila
-            {
-                activo = true;//usuario activo
-            }
-
-            if (this.cnx.IsError)
-            {
-                this.error = this.cnx.ErrorDescripcion;
-            }
-
-            return activo;
-        }
+        
 
         #endregion
     }

@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Datos\AccesoDatosSQL.cs" />
+    <Compile Include="Datos\ClienteDatos.cs" />
     <Compile Include="Datos\Sesion.cs" />
     <Compile Include="Vistas\Citas.cs">
       <SubType>Form</SubType>

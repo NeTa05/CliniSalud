@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Datos;
 
 namespace appClinica.Vistas
 {
     public partial class Cliente : Form
     {
-        public Cliente()
+        private AccesoDatosSQL conexion;
+
+        public Cliente(AccesoDatosSQL pConexion)
         {
             InitializeComponent();
+            this.conexion = pConexion;
+            this.cargarGrid();
             this.StartPosition = FormStartPosition.CenterScreen;
 
         }
@@ -22,22 +27,35 @@ namespace appClinica.Vistas
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            ClienteForm formulario = new ClienteForm();
+            ClienteForm formulario = new ClienteForm(this.conexion);
             formulario.ShowDialog();
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            ClienteForm formulario = new ClienteForm();
+            ClienteForm formulario = new ClienteForm(this.conexion);
             formulario.ShowDialog();
         }
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            Menu menu = new Menu();
+            Menu menu = new Menu(this.conexion);
             menu.ShowDialog();
+        }
+
+        public void cargarGrid()
+        {
+            ClienteDatos cliente = new ClienteDatos(this.conexion);
+            
+            DataSet dset = cliente.obtenerClientes().Copy();
+            if (cliente.Error != "")
+            {
+                MessageBox.Show(cliente.Error);
+                return;
+            }
+            this.gridCliente.DataSource = dset.Tables[0];
         }
 
        

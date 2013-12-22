@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Datos;
 
 namespace appClinica.Vistas
 {
     public partial class CitasForm : Form
     {
-        public CitasForm()
+
+        AccesoDatosSQL conexion;
+        public CitasForm(AccesoDatosSQL pConexion)
         {
             InitializeComponent();
+            this.conexion = pConexion;
             this.StartPosition = FormStartPosition.CenterScreen;
 
         }
@@ -22,7 +26,7 @@ namespace appClinica.Vistas
         private void btnAtras_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            Citas citas = new Citas();
+            Citas citas = new Citas(this.conexion);
             citas.ShowDialog();
         }
 
