@@ -25,7 +25,7 @@ namespace appClinica.Vistas
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+            /*
 
 
             this.usuario = this.txtUsuario.Text;
@@ -37,16 +37,16 @@ namespace appClinica.Vistas
 
 
             if (resultado.Equals("Ingreso"))//si viene vacio no retorno error en contraseña o id
-            {
+            {*/
 
                 this.Visible = false;
                 Menu menu = new Menu(this.conexion);
                 menu.ShowDialog();
-            }
+            /*}
             else// si viene diferente a vacio se concatena el error
             {
                 MessageBox.Show("Ha ocurrido el siguiente error: " + resultado);
-            }
+            }*/
 
         }
     }

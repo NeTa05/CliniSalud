@@ -58,6 +58,14 @@ namespace appClinica.Vistas
             this.gridCliente.DataSource = dset.Tables[0];
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ClienteDatos p = new ClienteDatos(this.conexion);
+            p.insertarClientes("s", DateTime.Today, "s", "s", "s", "s", "s", DateTime.Today, "s", 1, "s", "s",
+                "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s",
+                "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s");
+        }
+
        
     }
 }
