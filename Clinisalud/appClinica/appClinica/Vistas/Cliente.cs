@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Datos;
 
+
 namespace appClinica.Vistas
 {
     public partial class Cliente : Form
@@ -27,14 +28,14 @@ namespace appClinica.Vistas
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            ClienteForm formulario = new ClienteForm(this.conexion);
+            ClienteForm formulario = new ClienteForm(this.conexion,"agregar");
             formulario.ShowDialog();
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            ClienteForm formulario = new ClienteForm(this.conexion);
+            ClienteForm formulario = new ClienteForm(this.conexion,"modificar");
             formulario.ShowDialog();
         }
 
@@ -60,10 +61,7 @@ namespace appClinica.Vistas
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ClienteDatos p = new ClienteDatos(this.conexion);
-            p.insertarClientes("s", DateTime.Today, "s", "s", "s", "s", "s", DateTime.Today, "s", 1, "s", "s",
-                "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s",
-                "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s", "s");
+            
         }
 
        

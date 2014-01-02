@@ -30,88 +30,89 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ClienteForm));
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.txtMotivo = new System.Windows.Forms.RichTextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtValoracion = new System.Windows.Forms.DateTimePicker();
             this.btnAtras = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtApellidos = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtCedula = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dtNacimiento = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtEstatura = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtPeso = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.txtCelular = new System.Windows.Forms.TextBox();
+            this.numHijos = new System.Windows.Forms.NumericUpDown();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtOcupacion = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.txtPresion = new System.Windows.Forms.RichTextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.txtLinfedema = new System.Windows.Forms.RichTextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.txtRh = new System.Windows.Forms.RichTextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.txtFactor = new System.Windows.Forms.RichTextBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.txtGlucosa = new System.Windows.Forms.RichTextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
+            this.txtEstreñimiento = new System.Windows.Forms.RichTextBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
+            this.txtTrigliceridos = new System.Windows.Forms.RichTextBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
+            this.txtColesterol = new System.Windows.Forms.RichTextBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
+            this.txtRm = new System.Windows.Forms.RichTextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.richTextBox11 = new System.Windows.Forms.RichTextBox();
+            this.txtMedicamentos = new System.Windows.Forms.RichTextBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.richTextBox12 = new System.Windows.Forms.RichTextBox();
+            this.txtEnfermedades = new System.Windows.Forms.RichTextBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.richTextBox13 = new System.Windows.Forms.RichTextBox();
+            this.txtTabaco = new System.Windows.Forms.RichTextBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.richTextBox14 = new System.Windows.Forms.RichTextBox();
+            this.txtAlcohol = new System.Windows.Forms.RichTextBox();
             this.label28 = new System.Windows.Forms.Label();
-            this.richTextBox15 = new System.Windows.Forms.RichTextBox();
+            this.txtLesiones = new System.Windows.Forms.RichTextBox();
             this.label29 = new System.Windows.Forms.Label();
-            this.richTextBox16 = new System.Windows.Forms.RichTextBox();
+            this.txtEjercicio = new System.Windows.Forms.RichTextBox();
             this.label30 = new System.Windows.Forms.Label();
-            this.richTextBox17 = new System.Windows.Forms.RichTextBox();
+            this.txtExposicion = new System.Windows.Forms.RichTextBox();
             this.label31 = new System.Windows.Forms.Label();
-            this.richTextBox18 = new System.Windows.Forms.RichTextBox();
+            this.txtProteccion = new System.Windows.Forms.RichTextBox();
             this.label32 = new System.Windows.Forms.Label();
-            this.richTextBox19 = new System.Windows.Forms.RichTextBox();
+            this.txtLunares = new System.Windows.Forms.RichTextBox();
             this.label33 = new System.Windows.Forms.Label();
-            this.richTextBox20 = new System.Windows.Forms.RichTextBox();
+            this.txtImplantes = new System.Windows.Forms.RichTextBox();
             this.label34 = new System.Windows.Forms.Label();
-            this.richTextBox21 = new System.Windows.Forms.RichTextBox();
+            this.txtAnticonceptivos = new System.Windows.Forms.RichTextBox();
             this.label35 = new System.Windows.Forms.Label();
-            this.richTextBox22 = new System.Windows.Forms.RichTextBox();
+            this.txtEmbarazo = new System.Windows.Forms.RichTextBox();
             this.label36 = new System.Windows.Forms.Label();
-            this.richTextBox23 = new System.Windows.Forms.RichTextBox();
+            this.txtTipo = new System.Windows.Forms.RichTextBox();
             this.label37 = new System.Windows.Forms.Label();
-            this.richTextBox24 = new System.Windows.Forms.RichTextBox();
+            this.txtDesayuno = new System.Windows.Forms.RichTextBox();
             this.label38 = new System.Windows.Forms.Label();
-            this.richTextBox25 = new System.Windows.Forms.RichTextBox();
+            this.txtAlmuerzo = new System.Windows.Forms.RichTextBox();
             this.label39 = new System.Windows.Forms.Label();
-            this.richTextBox26 = new System.Windows.Forms.RichTextBox();
+            this.txtCena = new System.Windows.Forms.RichTextBox();
             this.label40 = new System.Windows.Forms.Label();
-            this.richTextBox27 = new System.Windows.Forms.RichTextBox();
+            this.txtInfusiones = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.numEdad = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numHijos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numEdad)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -125,13 +126,13 @@
             this.label1.TabIndex = 24;
             this.label1.Text = "Nombre";
             // 
-            // textBox1
+            // txtNombre
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(588, 26);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 28);
-            this.textBox1.TabIndex = 23;
+            this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.Location = new System.Drawing.Point(588, 26);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(100, 28);
+            this.txtNombre.TabIndex = 3;
             // 
             // label3
             // 
@@ -144,14 +145,14 @@
             this.label3.TabIndex = 40;
             this.label3.Text = "Motivo consulta";
             // 
-            // richTextBox2
+            // txtMotivo
             // 
-            this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox2.Location = new System.Drawing.Point(16, 172);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox2.TabIndex = 39;
-            this.richTextBox2.Text = "";
+            this.txtMotivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMotivo.Location = new System.Drawing.Point(16, 172);
+            this.txtMotivo.Name = "txtMotivo";
+            this.txtMotivo.Size = new System.Drawing.Size(181, 53);
+            this.txtMotivo.TabIndex = 14;
+            this.txtMotivo.Text = "";
             // 
             // label6
             // 
@@ -164,14 +165,14 @@
             this.label6.TabIndex = 45;
             this.label6.Text = "Fecha\r\nvaloración\r\n";
             // 
-            // dateTimePicker1
+            // dtValoracion
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(124, 23);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(125, 28);
-            this.dateTimePicker1.TabIndex = 44;
+            this.dtValoracion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtValoracion.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtValoracion.Location = new System.Drawing.Point(124, 23);
+            this.dtValoracion.Name = "dtValoracion";
+            this.dtValoracion.Size = new System.Drawing.Size(125, 28);
+            this.dtValoracion.TabIndex = 1;
             // 
             // btnAtras
             // 
@@ -194,13 +195,13 @@
             this.label5.TabIndex = 50;
             this.label5.Text = "Apellidos";
             // 
-            // textBox4
+            // txtApellidos
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(806, 27);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 28);
-            this.textBox4.TabIndex = 49;
+            this.txtApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellidos.Location = new System.Drawing.Point(806, 27);
+            this.txtApellidos.Name = "txtApellidos";
+            this.txtApellidos.Size = new System.Drawing.Size(100, 28);
+            this.txtApellidos.TabIndex = 4;
             // 
             // label4
             // 
@@ -213,14 +214,6 @@
             this.label4.TabIndex = 52;
             this.label4.Text = "Edad";
             // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(993, 34);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 28);
-            this.textBox3.TabIndex = 51;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -232,13 +225,13 @@
             this.label2.TabIndex = 54;
             this.label2.Text = "Cédula";
             // 
-            // textBox2
+            // txtCedula
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(349, 24);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(127, 28);
-            this.textBox2.TabIndex = 53;
+            this.txtCedula.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCedula.Location = new System.Drawing.Point(349, 24);
+            this.txtCedula.Name = "txtCedula";
+            this.txtCedula.Size = new System.Drawing.Size(127, 28);
+            this.txtCedula.TabIndex = 2;
             // 
             // label7
             // 
@@ -251,14 +244,14 @@
             this.label7.TabIndex = 58;
             this.label7.Text = "Fecha de \r\nnacimiento\r\n";
             // 
-            // dateTimePicker2
+            // dtNacimiento
             // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker2.Location = new System.Drawing.Point(1242, 33);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(123, 28);
-            this.dateTimePicker2.TabIndex = 57;
+            this.dtNacimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtNacimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtNacimiento.Location = new System.Drawing.Point(1242, 33);
+            this.dtNacimiento.Name = "dtNacimiento";
+            this.dtNacimiento.Size = new System.Drawing.Size(123, 28);
+            this.dtNacimiento.TabIndex = 6;
             // 
             // label8
             // 
@@ -271,13 +264,13 @@
             this.label8.TabIndex = 60;
             this.label8.Text = "Email";
             // 
-            // textBox5
+            // txtEmail
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(93, 87);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 28);
-            this.textBox5.TabIndex = 59;
+            this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Location = new System.Drawing.Point(93, 87);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(100, 28);
+            this.txtEmail.TabIndex = 7;
             // 
             // label9
             // 
@@ -290,13 +283,13 @@
             this.label9.TabIndex = 62;
             this.label9.Text = "Estatura";
             // 
-            // textBox6
+            // txtEstatura
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(290, 85);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(127, 28);
-            this.textBox6.TabIndex = 61;
+            this.txtEstatura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEstatura.Location = new System.Drawing.Point(290, 85);
+            this.txtEstatura.Name = "txtEstatura";
+            this.txtEstatura.Size = new System.Drawing.Size(127, 28);
+            this.txtEstatura.TabIndex = 8;
             // 
             // label10
             // 
@@ -309,13 +302,13 @@
             this.label10.TabIndex = 64;
             this.label10.Text = "Peso";
             // 
-            // textBox7
+            // txtPeso
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(486, 88);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(101, 28);
-            this.textBox7.TabIndex = 63;
+            this.txtPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPeso.Location = new System.Drawing.Point(486, 88);
+            this.txtPeso.Name = "txtPeso";
+            this.txtPeso.Size = new System.Drawing.Size(101, 28);
+            this.txtPeso.TabIndex = 9;
             // 
             // label11
             // 
@@ -328,13 +321,13 @@
             this.label11.TabIndex = 66;
             this.label11.Text = "Teléfono";
             // 
-            // textBox8
+            // txtTelefono
             // 
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(833, 89);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(127, 28);
-            this.textBox8.TabIndex = 65;
+            this.txtTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefono.Location = new System.Drawing.Point(833, 89);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(127, 28);
+            this.txtTelefono.TabIndex = 11;
             // 
             // label12
             // 
@@ -358,21 +351,21 @@
             this.label13.TabIndex = 70;
             this.label13.Text = "Celular";
             // 
-            // textBox10
+            // txtCelular
             // 
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(1057, 89);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(127, 28);
-            this.textBox10.TabIndex = 69;
+            this.txtCelular.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCelular.Location = new System.Drawing.Point(1057, 89);
+            this.txtCelular.Name = "txtCelular";
+            this.txtCelular.Size = new System.Drawing.Size(127, 28);
+            this.txtCelular.TabIndex = 12;
             // 
-            // numericUpDown1
+            // numHijos
             // 
-            this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(657, 89);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(71, 28);
-            this.numericUpDown1.TabIndex = 71;
+            this.numHijos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numHijos.Location = new System.Drawing.Point(657, 89);
+            this.numHijos.Name = "numHijos";
+            this.numHijos.Size = new System.Drawing.Size(71, 28);
+            this.numHijos.TabIndex = 10;
             // 
             // label14
             // 
@@ -385,13 +378,13 @@
             this.label14.TabIndex = 73;
             this.label14.Text = "Ocupación";
             // 
-            // textBox9
+            // txtOcupacion
             // 
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(1308, 85);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(127, 28);
-            this.textBox9.TabIndex = 72;
+            this.txtOcupacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOcupacion.Location = new System.Drawing.Point(1308, 85);
+            this.txtOcupacion.Name = "txtOcupacion";
+            this.txtOcupacion.Size = new System.Drawing.Size(127, 28);
+            this.txtOcupacion.TabIndex = 13;
             // 
             // label15
             // 
@@ -404,14 +397,14 @@
             this.label15.TabIndex = 75;
             this.label15.Text = "Presión arterial ";
             // 
-            // richTextBox1
+            // txtPresion
             // 
-            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(236, 172);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox1.TabIndex = 74;
-            this.richTextBox1.Text = "";
+            this.txtPresion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPresion.Location = new System.Drawing.Point(236, 172);
+            this.txtPresion.Name = "txtPresion";
+            this.txtPresion.Size = new System.Drawing.Size(181, 53);
+            this.txtPresion.TabIndex = 15;
+            this.txtPresion.Text = "";
             // 
             // label16
             // 
@@ -424,14 +417,14 @@
             this.label16.TabIndex = 77;
             this.label16.Text = "Linfedema";
             // 
-            // richTextBox3
+            // txtLinfedema
             // 
-            this.richTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox3.Location = new System.Drawing.Point(461, 172);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox3.TabIndex = 76;
-            this.richTextBox3.Text = "";
+            this.txtLinfedema.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLinfedema.Location = new System.Drawing.Point(461, 172);
+            this.txtLinfedema.Name = "txtLinfedema";
+            this.txtLinfedema.Size = new System.Drawing.Size(181, 53);
+            this.txtLinfedema.TabIndex = 16;
+            this.txtLinfedema.Text = "";
             // 
             // label17
             // 
@@ -444,14 +437,14 @@
             this.label17.TabIndex = 79;
             this.label17.Text = "RH";
             // 
-            // richTextBox4
+            // txtRh
             // 
-            this.richTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox4.Location = new System.Drawing.Point(664, 172);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox4.TabIndex = 78;
-            this.richTextBox4.Text = "";
+            this.txtRh.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRh.Location = new System.Drawing.Point(664, 172);
+            this.txtRh.Name = "txtRh";
+            this.txtRh.Size = new System.Drawing.Size(181, 53);
+            this.txtRh.TabIndex = 17;
+            this.txtRh.Text = "";
             // 
             // label18
             // 
@@ -464,14 +457,14 @@
             this.label18.TabIndex = 81;
             this.label18.Text = "Factor genético";
             // 
-            // richTextBox5
+            // txtFactor
             // 
-            this.richTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox5.Location = new System.Drawing.Point(870, 172);
-            this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox5.TabIndex = 80;
-            this.richTextBox5.Text = "";
+            this.txtFactor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFactor.Location = new System.Drawing.Point(870, 172);
+            this.txtFactor.Name = "txtFactor";
+            this.txtFactor.Size = new System.Drawing.Size(181, 53);
+            this.txtFactor.TabIndex = 18;
+            this.txtFactor.Text = "";
             // 
             // label19
             // 
@@ -484,14 +477,14 @@
             this.label19.TabIndex = 83;
             this.label19.Text = "Glucosa";
             // 
-            // richTextBox6
+            // txtGlucosa
             // 
-            this.richTextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox6.Location = new System.Drawing.Point(1091, 172);
-            this.richTextBox6.Name = "richTextBox6";
-            this.richTextBox6.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox6.TabIndex = 82;
-            this.richTextBox6.Text = "";
+            this.txtGlucosa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGlucosa.Location = new System.Drawing.Point(1091, 172);
+            this.txtGlucosa.Name = "txtGlucosa";
+            this.txtGlucosa.Size = new System.Drawing.Size(181, 53);
+            this.txtGlucosa.TabIndex = 19;
+            this.txtGlucosa.Text = "";
             // 
             // label20
             // 
@@ -504,14 +497,14 @@
             this.label20.TabIndex = 85;
             this.label20.Text = "Estreñimiento";
             // 
-            // richTextBox7
+            // txtEstreñimiento
             // 
-            this.richTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox7.Location = new System.Drawing.Point(14, 279);
-            this.richTextBox7.Name = "richTextBox7";
-            this.richTextBox7.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox7.TabIndex = 84;
-            this.richTextBox7.Text = "";
+            this.txtEstreñimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEstreñimiento.Location = new System.Drawing.Point(14, 279);
+            this.txtEstreñimiento.Name = "txtEstreñimiento";
+            this.txtEstreñimiento.Size = new System.Drawing.Size(181, 53);
+            this.txtEstreñimiento.TabIndex = 20;
+            this.txtEstreñimiento.Text = "";
             // 
             // label21
             // 
@@ -524,14 +517,14 @@
             this.label21.TabIndex = 87;
             this.label21.Text = "Trigliceridos";
             // 
-            // richTextBox8
+            // txtTrigliceridos
             // 
-            this.richTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox8.Location = new System.Drawing.Point(236, 279);
-            this.richTextBox8.Name = "richTextBox8";
-            this.richTextBox8.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox8.TabIndex = 86;
-            this.richTextBox8.Text = "";
+            this.txtTrigliceridos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTrigliceridos.Location = new System.Drawing.Point(236, 279);
+            this.txtTrigliceridos.Name = "txtTrigliceridos";
+            this.txtTrigliceridos.Size = new System.Drawing.Size(181, 53);
+            this.txtTrigliceridos.TabIndex = 21;
+            this.txtTrigliceridos.Text = "";
             // 
             // label22
             // 
@@ -544,14 +537,14 @@
             this.label22.TabIndex = 89;
             this.label22.Text = "Colesterol";
             // 
-            // richTextBox9
+            // txtColesterol
             // 
-            this.richTextBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox9.Location = new System.Drawing.Point(459, 279);
-            this.richTextBox9.Name = "richTextBox9";
-            this.richTextBox9.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox9.TabIndex = 88;
-            this.richTextBox9.Text = "";
+            this.txtColesterol.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtColesterol.Location = new System.Drawing.Point(459, 279);
+            this.txtColesterol.Name = "txtColesterol";
+            this.txtColesterol.Size = new System.Drawing.Size(181, 53);
+            this.txtColesterol.TabIndex = 22;
+            this.txtColesterol.Text = "";
             // 
             // label23
             // 
@@ -564,14 +557,14 @@
             this.label23.TabIndex = 91;
             this.label23.Text = "RM";
             // 
-            // richTextBox10
+            // txtRm
             // 
-            this.richTextBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox10.Location = new System.Drawing.Point(664, 279);
-            this.richTextBox10.Name = "richTextBox10";
-            this.richTextBox10.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox10.TabIndex = 90;
-            this.richTextBox10.Text = "";
+            this.txtRm.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRm.Location = new System.Drawing.Point(664, 279);
+            this.txtRm.Name = "txtRm";
+            this.txtRm.Size = new System.Drawing.Size(181, 53);
+            this.txtRm.TabIndex = 23;
+            this.txtRm.Text = "";
             // 
             // label24
             // 
@@ -584,14 +577,14 @@
             this.label24.TabIndex = 93;
             this.label24.Text = "Medicamentos";
             // 
-            // richTextBox11
+            // txtMedicamentos
             // 
-            this.richTextBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox11.Location = new System.Drawing.Point(871, 279);
-            this.richTextBox11.Name = "richTextBox11";
-            this.richTextBox11.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox11.TabIndex = 92;
-            this.richTextBox11.Text = "";
+            this.txtMedicamentos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMedicamentos.Location = new System.Drawing.Point(871, 279);
+            this.txtMedicamentos.Name = "txtMedicamentos";
+            this.txtMedicamentos.Size = new System.Drawing.Size(181, 53);
+            this.txtMedicamentos.TabIndex = 24;
+            this.txtMedicamentos.Text = "";
             // 
             // label25
             // 
@@ -604,14 +597,14 @@
             this.label25.TabIndex = 95;
             this.label25.Text = "Enfermedades";
             // 
-            // richTextBox12
+            // txtEnfermedades
             // 
-            this.richTextBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox12.Location = new System.Drawing.Point(1091, 279);
-            this.richTextBox12.Name = "richTextBox12";
-            this.richTextBox12.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox12.TabIndex = 94;
-            this.richTextBox12.Text = "";
+            this.txtEnfermedades.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEnfermedades.Location = new System.Drawing.Point(1091, 279);
+            this.txtEnfermedades.Name = "txtEnfermedades";
+            this.txtEnfermedades.Size = new System.Drawing.Size(181, 53);
+            this.txtEnfermedades.TabIndex = 25;
+            this.txtEnfermedades.Text = "";
             // 
             // label26
             // 
@@ -624,14 +617,14 @@
             this.label26.TabIndex = 97;
             this.label26.Text = "Tabaco";
             // 
-            // richTextBox13
+            // txtTabaco
             // 
-            this.richTextBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox13.Location = new System.Drawing.Point(16, 381);
-            this.richTextBox13.Name = "richTextBox13";
-            this.richTextBox13.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox13.TabIndex = 96;
-            this.richTextBox13.Text = "";
+            this.txtTabaco.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTabaco.Location = new System.Drawing.Point(16, 381);
+            this.txtTabaco.Name = "txtTabaco";
+            this.txtTabaco.Size = new System.Drawing.Size(181, 53);
+            this.txtTabaco.TabIndex = 26;
+            this.txtTabaco.Text = "";
             // 
             // label27
             // 
@@ -644,14 +637,14 @@
             this.label27.TabIndex = 99;
             this.label27.Text = "Alcohol";
             // 
-            // richTextBox14
+            // txtAlcohol
             // 
-            this.richTextBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox14.Location = new System.Drawing.Point(236, 381);
-            this.richTextBox14.Name = "richTextBox14";
-            this.richTextBox14.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox14.TabIndex = 98;
-            this.richTextBox14.Text = "";
+            this.txtAlcohol.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAlcohol.Location = new System.Drawing.Point(236, 381);
+            this.txtAlcohol.Name = "txtAlcohol";
+            this.txtAlcohol.Size = new System.Drawing.Size(181, 53);
+            this.txtAlcohol.TabIndex = 27;
+            this.txtAlcohol.Text = "";
             // 
             // label28
             // 
@@ -664,14 +657,14 @@
             this.label28.TabIndex = 101;
             this.label28.Text = "Lesiones físicas";
             // 
-            // richTextBox15
+            // txtLesiones
             // 
-            this.richTextBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox15.Location = new System.Drawing.Point(457, 381);
-            this.richTextBox15.Name = "richTextBox15";
-            this.richTextBox15.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox15.TabIndex = 100;
-            this.richTextBox15.Text = "";
+            this.txtLesiones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLesiones.Location = new System.Drawing.Point(457, 381);
+            this.txtLesiones.Name = "txtLesiones";
+            this.txtLesiones.Size = new System.Drawing.Size(181, 53);
+            this.txtLesiones.TabIndex = 28;
+            this.txtLesiones.Text = "";
             // 
             // label29
             // 
@@ -684,14 +677,14 @@
             this.label29.TabIndex = 103;
             this.label29.Text = "Ejercicio físico";
             // 
-            // richTextBox16
+            // txtEjercicio
             // 
-            this.richTextBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox16.Location = new System.Drawing.Point(664, 381);
-            this.richTextBox16.Name = "richTextBox16";
-            this.richTextBox16.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox16.TabIndex = 102;
-            this.richTextBox16.Text = "";
+            this.txtEjercicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEjercicio.Location = new System.Drawing.Point(664, 381);
+            this.txtEjercicio.Name = "txtEjercicio";
+            this.txtEjercicio.Size = new System.Drawing.Size(181, 53);
+            this.txtEjercicio.TabIndex = 29;
+            this.txtEjercicio.Text = "";
             // 
             // label30
             // 
@@ -704,14 +697,14 @@
             this.label30.TabIndex = 105;
             this.label30.Text = "Exposicion solar";
             // 
-            // richTextBox17
+            // txtExposicion
             // 
-            this.richTextBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox17.Location = new System.Drawing.Point(870, 381);
-            this.richTextBox17.Name = "richTextBox17";
-            this.richTextBox17.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox17.TabIndex = 104;
-            this.richTextBox17.Text = "";
+            this.txtExposicion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtExposicion.Location = new System.Drawing.Point(870, 381);
+            this.txtExposicion.Name = "txtExposicion";
+            this.txtExposicion.Size = new System.Drawing.Size(181, 53);
+            this.txtExposicion.TabIndex = 30;
+            this.txtExposicion.Text = "";
             // 
             // label31
             // 
@@ -724,14 +717,14 @@
             this.label31.TabIndex = 107;
             this.label31.Text = "Protección solar";
             // 
-            // richTextBox18
+            // txtProteccion
             // 
-            this.richTextBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox18.Location = new System.Drawing.Point(1094, 381);
-            this.richTextBox18.Name = "richTextBox18";
-            this.richTextBox18.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox18.TabIndex = 106;
-            this.richTextBox18.Text = "";
+            this.txtProteccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtProteccion.Location = new System.Drawing.Point(1094, 381);
+            this.txtProteccion.Name = "txtProteccion";
+            this.txtProteccion.Size = new System.Drawing.Size(181, 53);
+            this.txtProteccion.TabIndex = 31;
+            this.txtProteccion.Text = "";
             // 
             // label32
             // 
@@ -744,14 +737,14 @@
             this.label32.TabIndex = 109;
             this.label32.Text = "Lunares o manchas";
             // 
-            // richTextBox19
+            // txtLunares
             // 
-            this.richTextBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox19.Location = new System.Drawing.Point(16, 483);
-            this.richTextBox19.Name = "richTextBox19";
-            this.richTextBox19.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox19.TabIndex = 108;
-            this.richTextBox19.Text = "";
+            this.txtLunares.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLunares.Location = new System.Drawing.Point(16, 483);
+            this.txtLunares.Name = "txtLunares";
+            this.txtLunares.Size = new System.Drawing.Size(181, 53);
+            this.txtLunares.TabIndex = 32;
+            this.txtLunares.Text = "";
             // 
             // label33
             // 
@@ -764,14 +757,14 @@
             this.label33.TabIndex = 111;
             this.label33.Text = "Implantes";
             // 
-            // richTextBox20
+            // txtImplantes
             // 
-            this.richTextBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox20.Location = new System.Drawing.Point(236, 484);
-            this.richTextBox20.Name = "richTextBox20";
-            this.richTextBox20.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox20.TabIndex = 110;
-            this.richTextBox20.Text = "";
+            this.txtImplantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtImplantes.Location = new System.Drawing.Point(236, 484);
+            this.txtImplantes.Name = "txtImplantes";
+            this.txtImplantes.Size = new System.Drawing.Size(181, 53);
+            this.txtImplantes.TabIndex = 33;
+            this.txtImplantes.Text = "";
             // 
             // label34
             // 
@@ -784,14 +777,14 @@
             this.label34.TabIndex = 113;
             this.label34.Text = "Anticonceptivos";
             // 
-            // richTextBox21
+            // txtAnticonceptivos
             // 
-            this.richTextBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox21.Location = new System.Drawing.Point(457, 484);
-            this.richTextBox21.Name = "richTextBox21";
-            this.richTextBox21.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox21.TabIndex = 112;
-            this.richTextBox21.Text = "";
+            this.txtAnticonceptivos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAnticonceptivos.Location = new System.Drawing.Point(457, 484);
+            this.txtAnticonceptivos.Name = "txtAnticonceptivos";
+            this.txtAnticonceptivos.Size = new System.Drawing.Size(181, 53);
+            this.txtAnticonceptivos.TabIndex = 34;
+            this.txtAnticonceptivos.Text = "";
             // 
             // label35
             // 
@@ -804,14 +797,14 @@
             this.label35.TabIndex = 115;
             this.label35.Text = "Embarazo";
             // 
-            // richTextBox22
+            // txtEmbarazo
             // 
-            this.richTextBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox22.Location = new System.Drawing.Point(664, 484);
-            this.richTextBox22.Name = "richTextBox22";
-            this.richTextBox22.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox22.TabIndex = 114;
-            this.richTextBox22.Text = "";
+            this.txtEmbarazo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmbarazo.Location = new System.Drawing.Point(664, 484);
+            this.txtEmbarazo.Name = "txtEmbarazo";
+            this.txtEmbarazo.Size = new System.Drawing.Size(181, 53);
+            this.txtEmbarazo.TabIndex = 35;
+            this.txtEmbarazo.Text = "";
             // 
             // label36
             // 
@@ -824,14 +817,14 @@
             this.label36.TabIndex = 117;
             this.label36.Text = "Tipo alimentación";
             // 
-            // richTextBox23
+            // txtTipo
             // 
-            this.richTextBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox23.Location = new System.Drawing.Point(871, 484);
-            this.richTextBox23.Name = "richTextBox23";
-            this.richTextBox23.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox23.TabIndex = 116;
-            this.richTextBox23.Text = "";
+            this.txtTipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTipo.Location = new System.Drawing.Point(871, 484);
+            this.txtTipo.Name = "txtTipo";
+            this.txtTipo.Size = new System.Drawing.Size(181, 53);
+            this.txtTipo.TabIndex = 36;
+            this.txtTipo.Text = "";
             // 
             // label37
             // 
@@ -844,14 +837,14 @@
             this.label37.TabIndex = 119;
             this.label37.Text = "Desayuno";
             // 
-            // richTextBox24
+            // txtDesayuno
             // 
-            this.richTextBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox24.Location = new System.Drawing.Point(1094, 484);
-            this.richTextBox24.Name = "richTextBox24";
-            this.richTextBox24.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox24.TabIndex = 118;
-            this.richTextBox24.Text = "";
+            this.txtDesayuno.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDesayuno.Location = new System.Drawing.Point(1094, 484);
+            this.txtDesayuno.Name = "txtDesayuno";
+            this.txtDesayuno.Size = new System.Drawing.Size(181, 53);
+            this.txtDesayuno.TabIndex = 37;
+            this.txtDesayuno.Text = "";
             // 
             // label38
             // 
@@ -864,14 +857,14 @@
             this.label38.TabIndex = 121;
             this.label38.Text = "Almuerzo";
             // 
-            // richTextBox25
+            // txtAlmuerzo
             // 
-            this.richTextBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox25.Location = new System.Drawing.Point(16, 592);
-            this.richTextBox25.Name = "richTextBox25";
-            this.richTextBox25.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox25.TabIndex = 120;
-            this.richTextBox25.Text = "";
+            this.txtAlmuerzo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAlmuerzo.Location = new System.Drawing.Point(16, 592);
+            this.txtAlmuerzo.Name = "txtAlmuerzo";
+            this.txtAlmuerzo.Size = new System.Drawing.Size(181, 53);
+            this.txtAlmuerzo.TabIndex = 38;
+            this.txtAlmuerzo.Text = "";
             // 
             // label39
             // 
@@ -884,14 +877,14 @@
             this.label39.TabIndex = 123;
             this.label39.Text = "Cena";
             // 
-            // richTextBox26
+            // txtCena
             // 
-            this.richTextBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox26.Location = new System.Drawing.Point(236, 592);
-            this.richTextBox26.Name = "richTextBox26";
-            this.richTextBox26.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox26.TabIndex = 122;
-            this.richTextBox26.Text = "";
+            this.txtCena.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCena.Location = new System.Drawing.Point(236, 592);
+            this.txtCena.Name = "txtCena";
+            this.txtCena.Size = new System.Drawing.Size(181, 53);
+            this.txtCena.TabIndex = 39;
+            this.txtCena.Text = "";
             // 
             // label40
             // 
@@ -904,14 +897,14 @@
             this.label40.TabIndex = 125;
             this.label40.Text = "Infusiones";
             // 
-            // richTextBox27
+            // txtInfusiones
             // 
-            this.richTextBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox27.Location = new System.Drawing.Point(463, 592);
-            this.richTextBox27.Name = "richTextBox27";
-            this.richTextBox27.Size = new System.Drawing.Size(181, 53);
-            this.richTextBox27.TabIndex = 124;
-            this.richTextBox27.Text = "";
+            this.txtInfusiones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtInfusiones.Location = new System.Drawing.Point(463, 592);
+            this.txtInfusiones.Name = "txtInfusiones";
+            this.txtInfusiones.Size = new System.Drawing.Size(181, 53);
+            this.txtInfusiones.TabIndex = 40;
+            this.txtInfusiones.Text = "";
             // 
             // button1
             // 
@@ -924,99 +917,108 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // numEdad
+            // 
+            this.numEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numEdad.Location = new System.Drawing.Point(985, 28);
+            this.numEdad.Name = "numEdad";
+            this.numEdad.Size = new System.Drawing.Size(71, 28);
+            this.numEdad.TabIndex = 5;
+            // 
             // ClienteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(1447, 670);
+            this.Controls.Add(this.numEdad);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label40);
-            this.Controls.Add(this.richTextBox27);
+            this.Controls.Add(this.txtInfusiones);
             this.Controls.Add(this.label39);
-            this.Controls.Add(this.richTextBox26);
+            this.Controls.Add(this.txtCena);
             this.Controls.Add(this.label38);
-            this.Controls.Add(this.richTextBox25);
+            this.Controls.Add(this.txtAlmuerzo);
             this.Controls.Add(this.label37);
-            this.Controls.Add(this.richTextBox24);
+            this.Controls.Add(this.txtDesayuno);
             this.Controls.Add(this.label36);
-            this.Controls.Add(this.richTextBox23);
+            this.Controls.Add(this.txtTipo);
             this.Controls.Add(this.label35);
-            this.Controls.Add(this.richTextBox22);
+            this.Controls.Add(this.txtEmbarazo);
             this.Controls.Add(this.label34);
-            this.Controls.Add(this.richTextBox21);
+            this.Controls.Add(this.txtAnticonceptivos);
             this.Controls.Add(this.label33);
-            this.Controls.Add(this.richTextBox20);
+            this.Controls.Add(this.txtImplantes);
             this.Controls.Add(this.label32);
-            this.Controls.Add(this.richTextBox19);
+            this.Controls.Add(this.txtLunares);
             this.Controls.Add(this.label31);
-            this.Controls.Add(this.richTextBox18);
+            this.Controls.Add(this.txtProteccion);
             this.Controls.Add(this.label30);
-            this.Controls.Add(this.richTextBox17);
+            this.Controls.Add(this.txtExposicion);
             this.Controls.Add(this.label29);
-            this.Controls.Add(this.richTextBox16);
+            this.Controls.Add(this.txtEjercicio);
             this.Controls.Add(this.label28);
-            this.Controls.Add(this.richTextBox15);
+            this.Controls.Add(this.txtLesiones);
             this.Controls.Add(this.label27);
-            this.Controls.Add(this.richTextBox14);
+            this.Controls.Add(this.txtAlcohol);
             this.Controls.Add(this.label26);
-            this.Controls.Add(this.richTextBox13);
+            this.Controls.Add(this.txtTabaco);
             this.Controls.Add(this.label25);
-            this.Controls.Add(this.richTextBox12);
+            this.Controls.Add(this.txtEnfermedades);
             this.Controls.Add(this.label24);
-            this.Controls.Add(this.richTextBox11);
+            this.Controls.Add(this.txtMedicamentos);
             this.Controls.Add(this.label23);
-            this.Controls.Add(this.richTextBox10);
+            this.Controls.Add(this.txtRm);
             this.Controls.Add(this.label22);
-            this.Controls.Add(this.richTextBox9);
+            this.Controls.Add(this.txtColesterol);
             this.Controls.Add(this.label21);
-            this.Controls.Add(this.richTextBox8);
+            this.Controls.Add(this.txtTrigliceridos);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.richTextBox7);
+            this.Controls.Add(this.txtEstreñimiento);
             this.Controls.Add(this.label19);
-            this.Controls.Add(this.richTextBox6);
+            this.Controls.Add(this.txtGlucosa);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.richTextBox5);
+            this.Controls.Add(this.txtFactor);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.richTextBox4);
+            this.Controls.Add(this.txtRh);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.richTextBox3);
+            this.Controls.Add(this.txtLinfedema);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.txtPresion);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.txtOcupacion);
+            this.Controls.Add(this.numHijos);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.txtCelular);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtPeso);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtEstatura);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.dtNacimiento);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtCedula);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtApellidos);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtValoracion);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.txtMotivo);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNombre);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ClienteForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario Clientes";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numHijos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numEdad)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1025,86 +1027,86 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox txtMotivo;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtValoracion;
         private System.Windows.Forms.Button btnAtras;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtApellidos;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtCedula;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dtNacimiento;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtEstatura;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtPeso;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.TextBox txtCelular;
+        private System.Windows.Forms.NumericUpDown numHijos;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtOcupacion;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox txtPresion;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.RichTextBox txtLinfedema;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.RichTextBox richTextBox4;
+        private System.Windows.Forms.RichTextBox txtRh;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.RichTextBox richTextBox5;
+        private System.Windows.Forms.RichTextBox txtFactor;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.RichTextBox richTextBox6;
+        private System.Windows.Forms.RichTextBox txtGlucosa;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.RichTextBox richTextBox7;
+        private System.Windows.Forms.RichTextBox txtEstreñimiento;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.RichTextBox richTextBox8;
+        private System.Windows.Forms.RichTextBox txtTrigliceridos;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.RichTextBox richTextBox9;
+        private System.Windows.Forms.RichTextBox txtColesterol;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.RichTextBox richTextBox10;
+        private System.Windows.Forms.RichTextBox txtRm;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.RichTextBox richTextBox11;
+        private System.Windows.Forms.RichTextBox txtMedicamentos;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.RichTextBox richTextBox12;
+        private System.Windows.Forms.RichTextBox txtEnfermedades;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.RichTextBox richTextBox13;
+        private System.Windows.Forms.RichTextBox txtTabaco;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.RichTextBox richTextBox14;
+        private System.Windows.Forms.RichTextBox txtAlcohol;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.RichTextBox richTextBox15;
+        private System.Windows.Forms.RichTextBox txtLesiones;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.RichTextBox richTextBox16;
+        private System.Windows.Forms.RichTextBox txtEjercicio;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.RichTextBox richTextBox17;
+        private System.Windows.Forms.RichTextBox txtExposicion;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.RichTextBox richTextBox18;
+        private System.Windows.Forms.RichTextBox txtProteccion;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.RichTextBox richTextBox19;
+        private System.Windows.Forms.RichTextBox txtLunares;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.RichTextBox richTextBox20;
+        private System.Windows.Forms.RichTextBox txtImplantes;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.RichTextBox richTextBox21;
+        private System.Windows.Forms.RichTextBox txtAnticonceptivos;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.RichTextBox richTextBox22;
+        private System.Windows.Forms.RichTextBox txtEmbarazo;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.RichTextBox richTextBox23;
+        private System.Windows.Forms.RichTextBox txtTipo;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.RichTextBox richTextBox24;
+        private System.Windows.Forms.RichTextBox txtDesayuno;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.RichTextBox richTextBox25;
+        private System.Windows.Forms.RichTextBox txtAlmuerzo;
         private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.RichTextBox richTextBox26;
+        private System.Windows.Forms.RichTextBox txtCena;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.RichTextBox richTextBox27;
+        private System.Windows.Forms.RichTextBox txtInfusiones;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.NumericUpDown numEdad;
     }
 }

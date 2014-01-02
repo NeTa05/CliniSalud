@@ -47,7 +47,7 @@ namespace Datos
 
         //insert into clientes
         public string insertarClientes
-            (string pCedula,DateTime pValoracion,string pNombre, string pApellidos, string pEdad, string pEstatura,
+            (string pCedula,DateTime pValoracion,string pNombre, string pApellidos, int pEdad, string pEstatura,
             string pPeso,DateTime pNacimiento,string pEmail,int pHijos,string pTelefono, string pCelular, string pOcupacion, 
             string pMotivo,string pPresion, string pLinfedema,string pRh, string pFactor, string pGlucosa, string pEstrenimiento,
             string pTrigliceridos, string pColesterol, string pRm, string pMedicamentos, string pEnfermedades, string pTabaco,
@@ -85,7 +85,7 @@ namespace Datos
             Parametros[3].Value = pApellidos;
 
             Parametros[4] = new SqlParameter();
-            Parametros[4].SqlDbType = SqlDbType.VarChar;
+            Parametros[4].SqlDbType = SqlDbType.Int;
             Parametros[4].ParameterName = "@edad";
             Parametros[4].Value = pEdad;
 
